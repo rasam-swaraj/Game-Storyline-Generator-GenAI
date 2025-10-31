@@ -1,0 +1,19 @@
+[project]
+name = "genai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-cors>=6.0.1",
+    "fpdf2>=2.8.4",
+    "ipykernel>=7.0.1",
+    "langchain>=1.0.1",
+    "langchain-google-genai>=3.0.0",
+    "langchain-huggingface>=1.0.0",
+    "langchain-openai>=1.0.1",
+    "pypandoc>=1.15",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.50.0",
+]
